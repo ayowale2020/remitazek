@@ -1,0 +1,752 @@
+#parent{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(227, 227, 227);
+    top: 0;
+    left: 0;
+    }
+
+    .main{
+        position: absolute;
+        height: 100%;
+        width: 60%;
+    }
+
+    .logo{
+        position: absolute;
+        height: 5%;
+        margin-top: 3%;
+        margin-left: 9%;
+    }
+
+    .image{
+        position: absolute;
+        height: 100%;
+        width: 110%;
+        margin-top: -1%;
+        margin-left: -4%;
+        opacity: 0.1;
+        
+    }
+
+    .em{
+        position: absolute;
+        margin-top: 26%;
+        margin-left: 8%;
+        font-size: 48px;
+        line-height: 0.8;
+        word-spacing: -2px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .click{
+        position: absolute;
+        width: 44%;
+        margin-left: 8%;
+        margin-top: 50%;
+        padding: 18px 60px;
+        border-radius: 50px;
+        background-color: rgb(255, 94, 36);
+        border: none;
+        color: white;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .upmain{
+        position: absolute;
+        width: 55%;
+        height: 10%;
+        margin-left: 45%;
+        background-color: rgb(227, 227, 227);
+    }
+
+    .per{
+        position: absolute;
+        margin-top: 4%;
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.817);
+        font-size: 14px;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .bus{
+        position: absolute;
+        margin-top: 4%;
+        margin-left: 12%;
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.817);
+        font-size: 14px;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+     .dev{
+        position: absolute;
+        margin-top: 4%;
+        margin-left: 25%;
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.817);
+        font-size: 14px;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .key1{
+        position: absolute;
+        margin-top: 3.7%;
+        margin-left: 42.5%;
+        height: 35%;
+    }
+
+
+    .login{
+        position: absolute;
+        width: 18%;
+        margin-top: 2%;
+        margin-left: 39%;
+        background-color: rgba(168, 165, 165, 0.219);
+        color: black;
+        font-size: 14px;
+        border-radius: 20px;
+        padding: 14px;
+        border: none;
+        font-weight: 600;
+    }
+    .add{
+        position: absolute;
+        margin-top: 3.7%;
+        margin-left: 62.5%;
+        height: 35%;
+    }
+
+
+
+    .sign{
+        position: absolute;
+        width: 20%;
+        margin-top: 2%;
+        margin-left: 59%;
+        background-color: rgba(168, 165, 165, 0.219);
+        color: black;
+        font-size: 14px;
+        border-radius: 20px;
+        padding: 14px;
+        border: none;
+        font-weight: 600;
+    }
+
+    .harm{
+        position: absolute;
+        margin-left: 80%;
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 3.2%;
+    }
+
+
+
+    .main2{
+        position: absolute;
+        width: 53%;
+        height: 82.6%;
+        margin-top: 8%;
+        margin-left: 47%;
+        background-color: rgb(227, 227, 227);
+    }
+
+    .sea{
+        position: absolute;
+        width: 76.5%;
+        padding: 8px;
+        margin-left: 10%;
+        border-radius: 20px;
+        border: none;
+    }
+
+    .sea::placeholder{
+        position: absolute;
+       
+        background-position: 55% center;
+        background-repeat: no-repeat;
+        padding-left: 190px;
+        background-size: 10px;
+        background-image: url(images/search.png);
+    }
+
+    .box1{
+        position: absolute;
+        height: 20%;
+        width: 17%;
+        margin-top: 12%;
+        margin-left: 10%;
+        background-color: rgba(255, 255, 255, 0.548);
+        border-radius: 10%;
+        box-shadow: -4px -10px 25px rgb(255, 255, 255);
+        background: linear-gradient(to bottom, rgba(241, 241, 241, 0.74),rgb(246, 241, 241));
+    }
+
+    .inbox1{
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        height: 42%;
+        width: 35%;
+        margin-top: 16%;
+        margin-left: 30%;
+        border-radius: 40px;  
+        box-shadow: -4px -10px 22px rgb(255, 253, 253), 0px 10px 24px rgb(209, 206, 206);
+        background: linear-gradient(to bottom, rgba(241, 241, 241, 0.553),rgb(246, 241, 241));
+
+    }
+
+    .inbox1image{
+        position: absolute;
+        height: 60%;
+        margin-top: 23%;
+        margin-left: 24%;
+        
+    }
+
+    .buy{
+       position: absolute;
+       margin-top: 60%;
+       margin-left: 23%;
+       font-size: 11px;
+       font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+    .box2{
+        position: absolute;
+        height: 20%;
+        width: 17%;
+        margin-top: 12%;
+        margin-left: 30%;
+        background-color: rgba(255, 255, 255, 0.548);
+        border-radius: 10px;
+        box-shadow: -4px -10px 25px rgb(255, 255, 255);
+        background: linear-gradient(to bottom, rgba(241, 241, 241, 0.74),rgb(246, 241, 241));
+       
+    }
+    
+
+    .inbox2{
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        height: 42%;
+        width: 35%;
+        margin-top: 16%;
+        margin-left: 30%;
+        border-radius: 40px;  
+        box-shadow: -4px -10px 22px rgb(255, 253, 253), 0px 10px 24px rgb(209, 206, 206);
+        background: linear-gradient(to bottom, rgba(241, 241, 241, 0.553),rgb(246, 241, 241));
+
+    }
+
+    .inbox2image{
+        position: absolute;
+        height: 50%;
+        margin-top: 25%;
+        margin-left: 25%;
+        
+    }
+
+    .buy2{
+       position: absolute;
+       margin-top: 60%;
+       margin-left: 29%;
+       font-size: 11px;
+       font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .box3{
+        position: absolute;
+        height: 20%;
+        width: 17%;
+        margin-top: 12%;
+        margin-left: 50%;
+        background-color: rgba(255, 255, 255, 0.548);
+        border-radius: 10%;
+        box-shadow: -4px -10px 25px rgb(255, 255, 255);
+        background: linear-gradient(to bottom, rgba(241, 241, 241, 0.74),rgb(246, 241, 241));
+    }
+
+    .inbox3{
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        height: 42%;
+        width: 35%;
+        margin-top: 16%;
+        margin-left: 30%;
+        border-radius: 40px;  
+        box-shadow: -4px -10px 22px rgb(255, 253, 253), 0px 10px 24px rgb(209, 206, 206);
+        background: linear-gradient(to bottom, rgba(241, 241, 241, 0.553),rgb(246, 241, 241));
+
+    }
+
+    .inbox3image{
+        position: absolute;
+        height: 47%;
+        margin-top: 25%;
+        margin-left: 33%;
+        
+    }
+
+    .buy3{
+       position: absolute;
+       margin-top: 60%;
+       margin-left: 21%;
+       font-size: 11px;
+       font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .box4{
+        position: absolute;
+        height: 20%;
+        width: 17%;
+        margin-top: 12%;
+        margin-left: 70%;
+        background-color: rgba(255, 255, 255, 0.548);
+        box-shadow: -4px -10px 25px rgb(255, 255, 255);
+        background: linear-gradient(to bottom, rgba(241, 241, 241, 0.74),rgb(246, 241, 241));
+        border-radius: 10%;
+    }
+
+    .inbox4{
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        height: 42%;
+        width: 35%;
+        margin-top: 16%;
+        margin-left: 30%;
+        border-radius: 40px;  
+        box-shadow: -4px -10px 22px rgb(255, 253, 253), 0px 10px 24px rgb(209, 206, 206);
+        background: linear-gradient(to bottom, rgba(241, 241, 241, 0.553),rgb(246, 241, 241));
+
+    }
+
+    .inbox4image{
+        position: absolute;
+        height: 50%;
+        margin-top: 20%;
+        margin-left: 22%;
+        
+    }
+
+    .cable{
+       position: absolute;
+       margin-top: 60%;
+       margin-left: 29%;
+       font-size: 11px;
+       font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .pay1{
+        position: absolute;
+        height: 20%;
+        width: 17%;
+        margin-top: 29%;
+        margin-left: 10%;
+        background-color: rgba(255, 255, 255, 0.548);
+        box-shadow: -4px -10px 25px rgb(255, 255, 255);
+        background: linear-gradient(to bottom, rgba(241, 241, 241, 0.74),rgb(246, 241, 241));
+        border-radius: 10%;
+    }
+
+    .inpay1{
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        height: 42%;
+        width: 35%;
+        margin-top: 16%;
+        margin-left: 30%;
+        border-radius: 40px; 
+        box-shadow: -4px -10px 22px rgb(255, 253, 253), 0px 10px 24px rgb(209, 206, 206);
+        background: linear-gradient(to bottom, rgba(241, 241, 241, 0.553),rgb(246, 241, 241));
+ 
+    }
+
+    .inpay1image{
+        position: absolute;
+        height: 50%;
+        margin-top: 20%;
+        margin-left: 22%;
+        
+    }
+
+    .water{
+       position: absolute;
+       margin-top: 60%;
+       margin-left: 40%;
+       font-size: 11px;
+       font-family: Arial, Helvetica, sans-serif;
+    }
+    .water2{
+        position: absolute;
+        margin-top: 70%;
+        margin-left: 36%;
+        font-size: 11px;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    .pay2{
+        position: absolute;
+        height: 20%;
+        width: 17%;
+        margin-top: 29%;
+        margin-left: 30%;
+        background-color: rgba(255, 255, 255, 0.548);
+        box-shadow: -4px -10px 25px rgb(255, 255, 255);
+        background: linear-gradient(to bottom, rgba(241, 241, 241, 0.74),rgb(246, 241, 241));
+        border-radius: 10%;
+    }
+
+    .inpay2{
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        height: 42%;
+        width: 35%;
+        margin-top: 16%;
+        margin-left: 30%;
+        border-radius: 40px;
+        box-shadow: -4px -10px 22px rgb(255, 253, 253), 0px 10px 24px rgb(209, 206, 206);
+        background: linear-gradient(to bottom, rgba(241, 241, 241, 0.553),rgb(246, 241, 241));
+  
+    }
+
+    .inpay2image{
+        position: absolute;
+        height: 50%;
+        margin-top: 20%;
+        margin-left: 22%;
+        
+    }
+
+    .state{
+       position: absolute;
+       margin-top: 60%;
+       margin-left: 25%;
+       font-size: 11px;
+       font-family: Arial, Helvetica, sans-serif;
+    }
+    .state2{
+        position: absolute;
+        margin-top: 70%;
+        margin-left: 36%;
+        font-size: 11px;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+
+
+    .bill{
+        position: absolute;
+        height: 20%;
+        width: 17%;
+        margin-top: 29%;
+        margin-left: 50%;
+        background-color: rgba(255, 255, 255, 0.548);
+        box-shadow: -4px -10px 25px rgb(255, 255, 255);
+        background: linear-gradient(to bottom, rgba(241, 241, 241, 0.74),rgb(246, 241, 241));
+        border-radius: 10%;
+    }
+
+    .inbill{
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        height: 42%;
+        width: 35%;
+        margin-top: 16%;
+        margin-left: 30%;
+        border-radius: 40px; 
+        box-shadow: -4px -10px 22px rgb(255, 253, 253), 0px 10px 24px rgb(209, 206, 206);
+        background: linear-gradient(to bottom, rgba(241, 241, 241, 0.553),rgb(246, 241, 241));
+ 
+    }
+
+    .inbillimage{
+        position: absolute;
+        height: 50%;
+        margin-top: 20%;
+        margin-left: 22%;
+        
+    }
+
+    .pur1{
+       position: absolute;
+       margin-top: 60%;
+       margin-left: 35%;
+       font-size: 11px;
+       font-family: Arial, Helvetica, sans-serif;
+    }
+    .pur2{
+        position: absolute;
+        margin-top: 70%;
+        margin-left: 25%;
+        font-size: 11px;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    .pay3{
+        position: absolute;
+        height: 20%;
+        width: 17%;
+        margin-top: 29%;
+        margin-left: 70%;
+        background-color: rgba(255, 255, 255, 0.548);
+        box-shadow: -4px -10px 25px rgb(255, 255, 255);
+        background: linear-gradient(to bottom, rgba(241, 241, 241, 0.74),rgb(246, 241, 241));
+        border-radius: 10%;
+    }
+
+    .inpay3{
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        height: 42%;
+        width: 35%;
+        margin-top: 16%;
+        margin-left: 30%;
+        border-radius: 40px;
+        box-shadow: -4px -10px 22px rgb(255, 253, 253), 0px 10px 24px rgb(209, 206, 206);
+        background: linear-gradient(to bottom, rgba(241, 241, 241, 0.553),rgb(246, 241, 241));
+  
+    }
+
+    .inpay3image{
+        position: absolute;
+        height: 50%;
+        margin-top: 20%;
+        margin-left: 22%;
+        
+    }
+
+    .pa{
+       position: absolute;
+       margin-top: 60%;
+       margin-left: 41%;
+       font-size: 11px;
+       font-family: Arial, Helvetica, sans-serif;
+    }
+    .taxes{
+        position: absolute;
+        margin-top: 70%;
+        margin-left: 36%;
+        font-size: 11px;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+    .pay4{
+        position: absolute;
+        height: 20%;
+        width: 17%;
+        margin-top: 45.7%;
+        margin-left: 10%;
+        background-color: rgba(255, 255, 255, 0.548);
+        box-shadow: -4px -10px 25px rgb(255, 255, 255);
+        background: linear-gradient(to bottom, rgba(241, 241, 241, 0.74),rgb(246, 241, 241));
+        border-radius: 10%;
+    }
+
+    .inpay4{
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        height: 42%;
+        width: 35%;
+        margin-top: 16%;
+        margin-left: 30%;
+        border-radius: 40px;
+        box-shadow: -4px -10px 22px rgb(255, 253, 253), 0px 10px 24px rgb(209, 206, 206);
+        background: linear-gradient(to bottom, rgba(241, 241, 241, 0.553),rgb(246, 241, 241));
+  
+    }
+
+    .inpay4image{
+        position: absolute;
+        height: 50%;
+        margin-top: 20%;
+        margin-left: 22%;
+        
+    }
+
+    .p{
+       position: absolute;
+       margin-top: 60%;
+       margin-left: 18%;
+       font-size: 11px;
+       font-family: Arial, Helvetica, sans-serif;
+    }
+    .s{
+        position: absolute;
+        margin-top: 70%;
+        margin-left: 7%;
+        font-size: 11px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .resend{
+        position: absolute;
+        height: 20%;
+        width: 17%;
+        margin-top: 45.7%;
+        margin-left: 30%;
+        background-color: rgba(255, 255, 255, 0.548);
+        box-shadow: -4px -10px 25px rgb(255, 255, 255);
+        background: linear-gradient(to bottom, rgba(241, 241, 241, 0.74),rgb(246, 241, 241));
+        border-radius: 10%;
+    }
+
+    .inresend{
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        height: 42%;
+        width: 35%;
+        margin-top: 16%;
+        margin-left: 30%;
+        border-radius: 40px;
+        box-shadow: -4px -10px 22px rgb(255, 253, 253), 0px 10px 24px rgb(209, 206, 206);
+        background: linear-gradient(to bottom, rgba(241, 241, 241, 0.553),rgb(246, 241, 241));
+  
+    }
+
+    .inresendimage{
+        position: absolute;
+        height: 50%;
+        margin-top: 20%;
+        margin-left: 22%;
+        
+    }
+
+    .r{
+       position: absolute;
+       margin-top: 60%;
+       margin-left: 15%;
+       font-size: 11px;
+       font-family: Arial, Helvetica, sans-serif;
+    }
+    .o{
+        position: absolute;
+        margin-top: 70%;
+        margin-left: 25%;
+        font-size: 11px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .stand{
+        position: absolute;
+        height: 20%;
+        width: 17%;
+        margin-top: 45.7%;
+        margin-left: 50%;
+        background-color: rgba(255, 255, 255, 0.548);
+        box-shadow: -4px -10px 25px rgb(255, 255, 255);
+        background: linear-gradient(to bottom, rgba(241, 241, 241, 0.74),rgb(246, 241, 241));
+        border-radius: 10%;
+    }
+
+    .instand{
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        height: 42%;
+        width: 35%;
+        margin-top: 16%;
+        margin-left: 30%;
+        border-radius: 40px;
+        box-shadow: -4px -10px 22px rgb(255, 253, 253), 0px 10px 24px rgb(209, 206, 206);
+        background: linear-gradient(to bottom, rgba(241, 241, 241, 0.553),rgb(246, 241, 241));
+  
+    }
+
+    .instandimage{
+        position: absolute;
+        height: 50%;
+        margin-top: 20%;
+        margin-left: 22%;
+        
+    }
+
+    .S{
+       position: absolute;
+       margin-top: 60%;
+       margin-left: 28%;
+       font-size: 11px;
+       font-family: Arial, Helvetica, sans-serif;
+    }
+    .O{
+        position: absolute;
+        margin-top: 70%;
+        margin-left: 33%;
+        font-size: 11px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .waec{
+        position: absolute;
+        height: 20%;
+        width: 17%;
+        margin-top: 45.7%;
+        margin-left: 70%;
+        background-color: rgba(255, 255, 255, 0.548);
+        box-shadow: -4px -10px 25px rgb(255, 255, 255);
+        background: linear-gradient(to bottom, rgba(241, 241, 241, 0.74),rgb(246, 241, 241));
+        border-radius: 10%;
+    }
+
+    .inwaec{
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        height: 42%;
+        width: 35%;
+        margin-top: 16%;
+        margin-left: 30%;
+        border-radius: 40px; 
+        box-shadow: -4px -10px 22px rgb(255, 253, 253), 0px 10px 24px rgb(209, 206, 206);
+        background: linear-gradient(to bottom, rgba(241, 241, 241, 0.553),rgb(246, 241, 241));
+ 
+    }
+
+    .inwaecimage{
+        position: absolute;
+        height: 50%;
+        margin-top: 20%;
+        margin-left: 22%;
+        
+    }
+
+    .B{
+       position: absolute;
+       margin-top: 60%;
+       margin-left: 28%;
+       font-size: 11px;
+       font-family: Arial, Helvetica, sans-serif;
+    }
+    .W{
+        position: absolute;
+        margin-top: 70%;
+        margin-left: 33%;
+        font-size: 11px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+
+
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+
